@@ -19,6 +19,6 @@ public class StatsService {
         // Si el dividendo es igual a 0, el ratio 0 (evita error por división por 0)
         double ratio = humanCount == 0 ? 0 : (double) mutantCount / humanCount;
 
-        return new StatsResponse(humanCount, mutantCount, ratio);
+        return new StatsResponse(mutantCount,humanCount, ratio);
     }
 }
