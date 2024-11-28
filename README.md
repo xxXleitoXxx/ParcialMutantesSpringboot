@@ -54,8 +54,8 @@ curl -X GET https://parcialmutantesspringboot.onrender.com/stats
 #### Ejemplos en postman
 ![imagen](https://github.com/user-attachments/assets/4e37ad05-2e3f-4dcd-b179-f3d56255431f)
 
-![imagen](Pasted image 20241128032327.png)
+![imagen](https://github.com/user-attachments/assets/afffd2c1-505d-4959-9621-0c35ee3b0b74)
 
-![[Pasted image 20241128032327.png]]
 #### Ejemplos en curl
-![[Pasted image 20241128032526.png]]
+![Pasted image 20241128032526](https://github.com/user-attachments/assets/6c448ff5-ec48-4195-a23f-ef62c866b63b)
+
