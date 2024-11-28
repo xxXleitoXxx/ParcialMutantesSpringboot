@@ -1,5 +1,5 @@
 # Parcial Mutantes Desarrollo
-creado por: Leonel Navarta
+
 Este parcial corresponde al parcial de back end de desarrollo de software de la UTN
 
 Proyecto creado en:
