@@ -29,6 +29,7 @@ ejemplos de cadenas de adn humanas
 ```
 ejemplos de cadenas de adn mutantes
 ```json
+{
 "dna": [
 "GTGCG",
 "CAGTG",
