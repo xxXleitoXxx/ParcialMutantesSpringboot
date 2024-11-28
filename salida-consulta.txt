@@ -1,0 +1,90 @@
+2024-09-21T14:36:31.088-03:00  INFO 7332 --- [inicial1] [  restartedMain] c.example.inicial1.Inicial1Application   : Starting Inicial1Application using Java 17.0.12 with PID 7332 (/home/leitoxx/Documentos/desarrollo/Java/restinicial-main/build/classes/java/main started by leitoxx in /home/leitoxx/Documentos/desarrollo/Java/restinicial-main)
+2024-09-21T14:36:31.093-03:00  INFO 7332 --- [inicial1] [  restartedMain] c.example.inicial1.Inicial1Application   : No active profile set, falling back to 1 default profile: "default"
+2024-09-21T14:36:31.183-03:00  INFO 7332 --- [inicial1] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-21T14:36:31.184-03:00  INFO 7332 --- [inicial1] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-21T14:36:32.689-03:00  INFO 7332 --- [inicial1] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-21T14:36:32.790-03:00  INFO 7332 --- [inicial1] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interface.
+2024-09-21T14:36:33.872-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-21T14:36:33.903-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-21T14:36:33.903-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-21T14:36:34.017-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-21T14:36:34.021-03:00  INFO 7332 --- [inicial1] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2832 ms
+2024-09-21T14:36:34.105-03:00  INFO 7332 --- [inicial1] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-21T14:36:34.496-03:00  INFO 7332 --- [inicial1] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:///home/leitoxx/testspring user=SA
+2024-09-21T14:36:34.498-03:00  INFO 7332 --- [inicial1] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-21T14:36:34.517-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:///home/leitoxx/testspring'
+2024-09-21T14:36:34.743-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-21T14:36:34.843-03:00  INFO 7332 --- [inicial1] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-21T14:36:34.913-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-21T14:36:35.095-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2024-09-21T14:36:35.411-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-21T14:36:35.477-03:00  WARN 7332 --- [inicial1] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-21T14:36:35.798-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.example.inicial1.entities.Persona
+2024-09-21T14:36:35.803-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.example.inicial1.entities.Domicilio
+2024-09-21T14:36:36.689-03:00 ERROR 7332 --- [inicial1] [  restartedMain] o.h.metamodel.internal.MetadataContext   : HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2024-09-21T14:36:36.697-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-21T14:36:36.760-03:00  INFO 7332 --- [inicial1] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-21T14:36:37.428-03:00  WARN 7332 --- [inicial1] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-21T14:36:38.112-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-21T14:36:38.167-03:00  INFO 7332 --- [inicial1] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-21T14:36:38.184-03:00  INFO 7332 --- [inicial1] [  restartedMain] c.example.inicial1.Inicial1Application   : Started Inicial1Application in 7.646 seconds (process running for 8.386)
+Hibernate: insert into domicilio (calle,numero,id) values (?,?,default)
+Hibernate: insert into persona (apellido,fk_domicilio,nombre,id) values (?,?,?,default)
+Hibernate: insert into revinfo (revtstmp,rev) values (?,default)
+Hibernate: insert into domicilio_aud (revtype,calle,numero,rev,id) values (?,?,?,?,?)
+Hibernate: insert into persona_aud (revtype,apellido,fk_domicilio,nombre,rev,id) values (?,?,?,?,?,?)
+Hibernate: insert into domicilio (calle,numero,id) values (?,?,default)
+Hibernate: insert into persona (apellido,fk_domicilio,nombre,id) values (?,?,?,default)
+Hibernate: insert into revinfo (revtstmp,rev) values (?,default)
+Hibernate: insert into domicilio_aud (revtype,calle,numero,rev,id) values (?,?,?,?,?)
+Hibernate: insert into persona_aud (revtype,apellido,fk_domicilio,nombre,rev,id) values (?,?,?,?,?,?)
+Hibernate: select p1_0.id,p1_0.apellido,p1_0.fk_domicilio,p1_0.nombre from persona p1_0
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+[Persona(id=1, nombre=Leonel, apellido=navarta, domicilio=Domicilio(id=1, calle=Rodriguezaaaa, numero=2390)), Persona(id=2, nombre=Alicia, apellido=Calderon, domicilio=Domicilio(id=2, calle=Lulunta, numero=339)), Persona(id=3, nombre=Leonel, apellido=navarta, domicilio=Domicilio(id=3, calle=Rodriguezaaaa, numero=2390)), Persona(id=4, nombre=Alicia, apellido=Calderon, domicilio=Domicilio(id=4, calle=Lulunta, numero=339)), Persona(id=5, nombre=Leonel, apellido=navarta, domicilio=Domicilio(id=5, calle=sobremonte, numero=2390)), Persona(id=6, nombre=TEGO, apellido=CALDERON, domicilio=Domicilio(id=6, calle=Lulunta, numero=339)), Persona(id=7, nombre=Leonel, apellido=navarta, domicilio=Domicilio(id=7, calle=sobremonte, numero=2390)), Persona(id=8, nombre=Alicia, apellido=Calderon, domicilio=Domicilio(id=8, calle=Lulunta, numero=339)), Persona(id=9, nombre=Lionel, apellido=Messi, domicilio=null), Persona(id=10, nombre=Lionel, apellido=Messi, domicilio=null), Persona(id=11, nombre=Leonel, apellido=navarta, domicilio=Domicilio(id=9, calle=Corrientes, numero=2390)), Persona(id=12, nombre=Alicia, apellido=Calderon, domicilio=Domicilio(id=10, calle=Lulunta, numero=339))]
+2024-09-21T14:36:38.535-03:00  INFO 7332 --- [inicial1] [  restartedMain] c.example.inicial1.Inicial1Application   : Detalles de la persona: [Persona(id=1, nombre=Leonel, apellido=navarta, domicilio=Domicilio(id=1, calle=Rodriguezaaaa, numero=2390)), Persona(id=2, nombre=Alicia, apellido=Calderon, domicilio=Domicilio(id=2, calle=Lulunta, numero=339)), Persona(id=3, nombre=Leonel, apellido=navarta, domicilio=Domicilio(id=3, calle=Rodriguezaaaa, numero=2390)), Persona(id=4, nombre=Alicia, apellido=Calderon, domicilio=Domicilio(id=4, calle=Lulunta, numero=339)), Persona(id=5, nombre=Leonel, apellido=navarta, domicilio=Domicilio(id=5, calle=sobremonte, numero=2390)), Persona(id=6, nombre=TEGO, apellido=CALDERON, domicilio=Domicilio(id=6, calle=Lulunta, numero=339)), Persona(id=7, nombre=Leonel, apellido=navarta, domicilio=Domicilio(id=7, calle=sobremonte, numero=2390)), Persona(id=8, nombre=Alicia, apellido=Calderon, domicilio=Domicilio(id=8, calle=Lulunta, numero=339)), Persona(id=9, nombre=Lionel, apellido=Messi, domicilio=null), Persona(id=10, nombre=Lionel, apellido=Messi, domicilio=null), Persona(id=11, nombre=Leonel, apellido=navarta, domicilio=Domicilio(id=9, calle=Corrientes, numero=2390)), Persona(id=12, nombre=Alicia, apellido=Calderon, domicilio=Domicilio(id=10, calle=Lulunta, numero=339))]
+Hibernate: select p1_0.id,p1_0.apellido,d1_0.id,d1_0.calle,d1_0.numero,p1_0.nombre from persona p1_0 left join domicilio d1_0 on d1_0.id=p1_0.fk_domicilio where p1_0.id=?
+Optional[Persona(id=1, nombre=Leonel, apellido=navarta, domicilio=Domicilio(id=1, calle=Rodriguezaaaa, numero=2390))]
+2024-09-21T14:36:38.545-03:00  INFO 7332 --- [inicial1] [  restartedMain] c.example.inicial1.Inicial1Application   : Detalles de la persona: Optional[Persona(id=1, nombre=Leonel, apellido=navarta, domicilio=Domicilio(id=1, calle=Rodriguezaaaa, numero=2390))]
+Hibernate: select p1_0.id,p1_0.apellido,d1_0.id,d1_0.calle,d1_0.numero,p1_0.nombre from persona p1_0 left join domicilio d1_0 on d1_0.id=p1_0.fk_domicilio where p1_0.id=?
+Hibernate: update domicilio set calle=?,numero=? where id=?
+Hibernate: insert into revinfo (revtstmp,rev) values (?,default)
+Hibernate: insert into domicilio_aud (revtype,calle,numero,rev,id) values (?,?,?,?,?)
+funcionando
+2024-09-21T14:36:47.311-03:00  INFO 7332 --- [inicial1] [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-21T14:36:47.311-03:00  INFO 7332 --- [inicial1] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-21T14:36:47.313-03:00  INFO 7332 --- [inicial1] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+EL ID LO TOMO DE LA URL
+Nombre :9
+Estos datos los tomo del cuerpo del Formulario
+Nombre :MATEO
+Apellido :Messi
+Hibernate: select p1_0.id,p1_0.apellido,d1_0.id,d1_0.calle,d1_0.numero,p1_0.nombre from persona p1_0 left join domicilio d1_0 on d1_0.id=p1_0.fk_domicilio where p1_0.id=?
+Hibernate: update persona set apellido=?,fk_domicilio=?,nombre=? where id=?
+Hibernate: insert into revinfo (revtstmp,rev) values (?,default)
+Hibernate: insert into persona_aud (revtype,apellido,fk_domicilio,nombre,rev,id) values (?,?,?,?,?,?)
+Hibernate: select count(*) from persona p1_0 where p1_0.id=?
+Hibernate: select p1_0.id,p1_0.apellido,d1_0.id,d1_0.calle,d1_0.numero,p1_0.nombre from persona p1_0 left join domicilio d1_0 on d1_0.id=p1_0.fk_domicilio where p1_0.id=?
+Hibernate: delete from persona where id=?
+Hibernate: insert into revinfo (revtstmp,rev) values (?,default)
+Hibernate: insert into persona_aud (revtype,apellido,fk_domicilio,nombre,rev,id) values (?,?,?,?,?,?)
+Hibernate: select p1_0.id,p1_0.apellido,p1_0.fk_domicilio,p1_0.nombre from persona p1_0
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+Hibernate: select d1_0.id,d1_0.calle,d1_0.numero from domicilio d1_0 where d1_0.id=?
+

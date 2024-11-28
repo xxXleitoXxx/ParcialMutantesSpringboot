@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ParcialMutantes.MutantServiceTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-11-28T03:23:52" hostname="leitoxx-Inspiron-3505" time="0.111">
+  <properties/>
+  <testcase name="testMainDiagonals()" classname="com.ParcialMutantes.MutantServiceTest" time="0.055"/>
+  <testcase name="testRows()" classname="com.ParcialMutantes.MutantServiceTest" time="0.005"/>
+  <testcase name="testDiagonalLeft()" classname="com.ParcialMutantes.MutantServiceTest" time="0.004"/>
+  <testcase name="testColumns()" classname="com.ParcialMutantes.MutantServiceTest" time="0.003"/>
+  <testcase name="testNonMutant()" classname="com.ParcialMutantes.MutantServiceTest" time="0.003"/>
+  <testcase name="testDiagonalRight()" classname="com.ParcialMutantes.MutantServiceTest" time="0.003"/>
+  <testcase name="testRowsCols()" classname="com.ParcialMutantes.MutantServiceTest" time="0.004"/>
+  <testcase name="testAllDirections()" classname="com.ParcialMutantes.MutantServiceTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
