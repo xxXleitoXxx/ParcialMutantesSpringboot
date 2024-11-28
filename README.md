@@ -52,7 +52,7 @@ curl -X GET https://parcialmutantesspringboot.onrender.com/stats
 ```
 
 #### Ejemplos en postman
-![[Pasted image 20241128032139.png]]
+![[https://github.com/xxXleitoXxx/ParcialMutantesSpringboot/blob/main/GetStats.png?raw=true]]
 
 ![[Pasted image 20241128032327.png]]
 #### Ejemplos en curl
